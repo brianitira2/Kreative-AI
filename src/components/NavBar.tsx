@@ -7,6 +7,8 @@ import { CiChat2 } from "react-icons/ci";
 import { FaRegUser } from "react-icons/fa";
 
 
+
+
 const NavBar = () => {
   return (
     <>
@@ -31,25 +33,7 @@ const NavBar = () => {
       </div>
 
 
-    
-
-      <div className="hero-section">
-
-        <div className="hero-section-left">
-        <span className="kreative-span">
-        Kreative ai- for
-          </span><br></br> 
-          <span className="coding-span">coding</span>
-          <span className="kreative-span">,
-           </span>
-          <span className="creation-span">content</span><br></br> <span className="creation-span">creation</span> 
-         <span className="kreative-span"> and </span>
-          <br></br> 
-          <span className="more-span">more</span>
-        </div>
-        <div className="hero-section-right"></div>
-
-      </div>
+  
     </>
   );
 };
